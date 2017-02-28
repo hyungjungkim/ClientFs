@@ -733,7 +733,7 @@ public class MainViewController implements Initializable {
 		}
 	}
 	
-	public void SetFileClient(FileClient fileClinet) {
+	public void SetFileClient(FileClient fileClient) {
 		this.fileClient = fileClient;
 	}
 	
@@ -744,7 +744,7 @@ public class MainViewController implements Initializable {
 		this.currentPath = this.userId;
 		ShowPath();
 		System.out.println(userId);
-
+		System.out.println(fileClient);
 		try {
 
 			dirFile = fileClient.ShowList(this.userId, this.currentPath);

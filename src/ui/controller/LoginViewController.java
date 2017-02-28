@@ -106,6 +106,7 @@ public class LoginViewController implements Initializable {
 
 		soc = tcpReactor.getSocket();
 		fileClient = new FileClientLogic(soc);
+		System.out.println("fc in lvg : " + fileClient);
 		
 	}
 
@@ -236,6 +237,7 @@ public class LoginViewController implements Initializable {
 							Scene scene = new Scene(root);
 
 							MainViewController mainViewController = loader.getController();
+							System.out.println("fc in btnclick : " + fileClient);
 							mainViewController.SetFileClient(fileClient);
 							mainViewController.SetUserId(userId);
 
