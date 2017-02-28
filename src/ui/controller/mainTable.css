@@ -1,0 +1,61 @@
+
+.root {
+    -fx-font-size: 16pt;
+    -fx-font-family: "Helvetica";
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, lightslategrey 0%, black 100%);
+    -fx-text-fill: white;
+}
+
+
+/* =============== STYLE ALL TABLES ================================================= */
+
+.table-view {
+
+    -fx-background-color: white;
+    -fx-background-insets: 1;
+    -fx-padding: 10;
+    -fx-alignment: center;
+    
+}
+
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent rgba(255,255,255,0.3) transparent;
+    -fx-border-width: 1;
+    -fx-background-insets: 0;
+    -fx-padding: 0 0 0 0;
+}
+.table-view .column-header, .table-view .filler {
+    -fx-border-color: transparent;
+}
+.table-view .column-header{
+
+    -fx-text-weight: bold;
+    -fx-background-color: #BCDCF5;
+    -fx-border-color: #e3e3e3;
+    -fx-boder-height: 30px;
+    -fx-font-size: 15px;
+}
+.table-view .column-header .label{
+	-fx-text-fill: #1C282B;
+	-fx-font-weight: bold;
+}
+/*
+.table-view .table-cell {
+    -fx-background-color: white;
+    -fx-border-color: white;
+    -fx-text-fill: black;
+    -fx-background-insets: 0;
+    -fx-alignment: center;
+}
+
+.table-view  .table-row-cell:filled:selected:focused, .table-row-cell:filled:selected {
+    -fx-background-color: rgba(0,0,0,0.1);
+}
+
+
+.table-view .table-row-cell {
+    -fx-background-color: transparent;
+}
+ */
